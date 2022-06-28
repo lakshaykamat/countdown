@@ -21,5 +21,5 @@ function countdown(){
     document.getElementById('hours').textContent = textHour
     document.getElementById('mins').textContent = textMinute
     document.getElementById('seconds').textContent = textSecond
-    interval = setInterval(countdown, 1000)
 }
+interval = setInterval(countdown, 1000)
